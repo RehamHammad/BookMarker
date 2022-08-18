@@ -1,0 +1,37 @@
+body{
+    background-color: #9a8c98;
+}
+.form-project{
+    background-color: #c9ada7;
+}
+table{
+    background-color: #c9ada7;
+}
+h1{
+    color:#22223b;
+}
+h2,label{
+    color:#f2e9e4;
+}
+label{
+    font-size: 20px;
+    font-weight: 600;
+}
+hr{
+    color: #22223b;
+}
+.form-group {
+    margin: auto !important;
+}
+footer{
+    color:#efd3d7;
+}
+
+.btn-visit{
+  background-color:#f4acb7;
+  color: #fff;
+}
+.btn-update{
+    background-color: #9d8189;
+    color: #fff;
+}
