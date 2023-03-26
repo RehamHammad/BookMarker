@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bookMark</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Prompt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3 class="my-5 fw-bold">Bookmarker</h3>
+        <hr>
+        <div class="box p-5 text-center my-3 w-100 m-auto">
+            <h2 class="my-4">Bookmark your favorite sites</h2>
+            <label class="my-2" for="bookName">Site Name</label>
+            <input type="text" class="my-2 form-control" id="bookName" placeholder="Bookmark Name">
+            <label class="my-2" for="bookUrl">Site URL</label>
+            <input type="text" class="form-control" id="bookUrl" placeholder="Website Url">
+            <button id="addBtn" disabled class="btn add-btn px-4 py-2 text-white my-3">Submit</button>
+           
+        </div>
+        <table class="table table-striped">
+       
+            <tbody id="tBody">
+            </tbody>
+           
+        
+        </table>
+    </div>
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
